@@ -1,0 +1,596 @@
+.body{
+    font-size: 15px;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    color: #000;
+    margin: 0;
+}
+*{
+    /* border: 1px solid; */
+    transition: 0.2s all;
+}
+.btn{
+    outline: none;
+    border: none;
+    border-radius: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.contain{
+    width: 90%;
+    margin: 0 auto;
+}
+.header-res{
+    display: none;
+    height: 23px;
+    margin: 17px;
+    justify-content: space-between;
+}
+.header-res .logo img{
+    height: 95%;
+}
+.header-res .left-icon i{
+    margin-right: 20px;
+}
+.header-res .right-icon i{
+    margin-left: 20px;
+}
+.header{
+    display: flex;
+    height: 23px;
+    font-size: 13px;
+    margin: 17px;
+    
+}
+.header .right-links {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.header .right-links .link a{
+    color: black;
+    padding: 17px 10px;
+    text-decoration: none;
+}
+.header .right-links .link a:hover span{
+    border-bottom: 3px solid;
+}
+.header .logo{
+    margin-top: -4px;
+}
+.header .logo img{
+
+    height: 90%;
+    margin-right: 12px;
+    cursor: pointer;
+}
+.header nav{
+    display: flex;
+    align-items: center;
+}
+.header nav a{
+    padding: 17px 10px;
+    color: black;
+}
+.header nav a:hover span{
+    border-bottom: 3px solid black;
+}
+.contain .slide-view{
+    background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWLAmj?ver=35aa&q=0&m=8&h=600&w=1600&b=%23FFFFFFFF&l=f&x=0&y=0&s=1898&d=712&aim=true);
+    background-size: cover;
+    height: 30rem;
+    display: flex;
+    align-items: center;
+}
+.contain .slide-view img{
+    display: none;
+}
+.contain .slide-view .slide-container{
+    margin-left: 75px;
+    width: 41%;
+}
+.contain .slide-view .slide-container h5{
+    background-color: #ffb900;
+    padding: 3px 14px 5px;
+    color: black;
+    width: 70px;
+}
+.contain .slide-view .slide-container h3, p{
+    color: #fff;
+}
+.contain .slide-view .slide-container .btn{
+    display: flex;
+    width: 150px;
+    color: black;
+    background-color: #eee;
+    border-radius: 0;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    transition: 0.2s all;
+}
+.contain .slide-view .slide-container .btn i{
+    margin-left: 3px;
+    font-weight: 500;
+    margin-top: 3px;
+}
+.contain .slide-view .slide-container .btn:hover span{
+    text-decoration: underline 2px;
+    margin-right: 6px;
+}
+.contain .icons ul{
+    display: flex;
+    margin-top: 65px;
+    margin-bottom: 65px;
+    justify-content: center;
+}
+.contain .icons ul li{
+    list-style: none;
+    text-align: center;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.contain .icons ul li img{
+    height: 40px;
+    width: 40px;
+}
+.contain .icons ul li div{
+    max-width: 125px;
+    font-weight: 600;
+    color: #000;
+}
+.contain .icons ul li:hover span{
+    text-decoration: underline;
+}
+.contain .rows{
+    display: flex;
+    justify-content: space-between;
+}
+.contain .rows .cols{
+    width: 23.5%;
+    cursor: pointer;
+}
+.contain .rows .cols:hover img{
+    opacity: 0.8;
+    transition: 0s all;
+}
+.contain .rows .cols img{
+    width: 100%;
+}
+.contain .rows .cols p{
+    color: #000;
+    font-size: 14px;
+    margin: 5px auto;
+}
+.contain .rows .cols .new{
+    margin-top: 9px;
+    padding: 3px 14px 5px;
+    background-color: #ffd800;
+    font-weight: 400;
+    font-size: 13px;
+    display: inline-block;
+    letter-spacing: .075em;
+    max-width: 100%;
+}
+.contain .rows .cols h4{
+    font-size: 20px;
+    font-weight: 600;
+    opacity: 0.95;
+}
+.contain .rows .cols a{
+    color: #0067b8;
+    display: flex;
+    margin-top: 10px;
+    align-items: center;
+
+}
+.contain .rows .cols a h6{
+    margin-right: 8px;
+}
+.contain .rows .cols a i{
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+.contain .rows .cols a h6:hover{
+    /* border-bottom: 2px solid #0067b8 ; */
+    text-decoration: underline 2px #0067b8;
+    margin-right: 15px;
+}
+.contain .section-2{
+    background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4OUXd?ver=fcb0&q=0&m=8&h=600&w=1600&b=%23FFFFFFFF&l=f&x=0&y=0&s=1898&d=712&aim=true);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    height: 30rem;
+    margin-top: 3rem;
+    cursor: pointer;
+}
+.contain .section-2 img{
+    display: none;
+}
+.contain .section-2 .section2-container{
+    margin-left: 75px;
+}
+.contain .section-2 .section2-container h3{
+    color: #fff;
+}
+.contain .section-2 .section2-container p{
+    max-width: 550px;
+    margin-bottom: 1.3rem;
+    margin-top: 1.5rem;
+    font-size: 15px;
+}
+.contain .section-2 .section2-container .btn{
+    background-color: #fff;
+    color: #000;
+    font-weight: 600;
+    margin-right: 3rem;
+    width: 7.2rem;
+}
+.contain .section-2 .section2-container a{
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+}
+.contain .section-2 .section2-container i{
+    font-weight: 500;
+    margin-left: 7px;
+}
+.contain .section-2 .section2-container .btn:hover span{
+    border-bottom: 2.5px solid;
+    margin-right: 8px;
+}
+.contain .section-2 .section2-container a:hover span{
+    border-bottom: 2.5px solid #fff;
+    margin-right: 8px;
+}
+.contain .for{
+    margin-top: 2.5rem;
+    margin-bottom: 1rem;
+    font-size: 10px;
+}
+.contain .for h2{
+    font-size: 1.5rem;
+}
+.contain .covid{
+    display: flex;
+    background-color: #eee;
+    align-items: center;
+    justify-content: center;
+    height: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+.contain .covid .cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.contain .covid p{
+    color: #000;
+    text-align: center;
+}
+.contain .covid a{
+    display: flex;
+    align-items: center;
+    transition: 0.2s all linear;
+}
+.contain .covid a h6{
+    color: #000;
+    font-weight: 500;
+    margin-right: 5px;
+}
+.contain .covid a i{
+    color: #000;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+.contain .covid a:hover h6{
+    text-decoration: underline;
+}
+.contain .covid a:hover i{
+    margin-left: 5px;
+}
+.contain .section-3{
+    height: 30rem;
+    background-image: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWK4Xl?ver=934d&q=0&m=8&h=600&w=1600&b=%23FFFFFFFF&l=f&x=0&y=0&s=1898&d=712&aim=true);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+.contain .section-3 img{
+    display: none;
+}
+.contain .section-3 .section-cont{
+    margin-left: 75px;
+}
+.contain .section-3 .section-cont h3{
+    font-size: 2.1rem;
+    color: #fff;
+}
+.contain .section-3 .section-cont p{
+    margin-top: 1rem;
+    margin-bottom: 1.2rem;
+}
+.contain .section-3 .section-cont .btn{
+    background-color: #fff;
+    color: #000;
+    font-weight: 500;
+    width: 8rem;
+}
+.contain .section-3 .section-cont .btn:hover{
+    color: #000;
+    background-color: #eee;
+}
+.contain .section-3 .section-cont .btn:hover i{
+    color: #000;
+}
+.contain .section-3 .section-cont .btn:hover span{
+    border-bottom: 3px solid;
+    margin-right: 6px;
+    color: #000;
+}
+.contain .section-3 .section-cont .btn i{
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 7px;
+    color: #000;
+    margin-top: 2px;
+}
+.contain .social {
+    display: flex;
+    margin-bottom: 2rem;
+}
+.contain .social ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.contain .social p{
+    color: #616161;
+}
+.contain .social ul li{
+    margin-right: 1rem;
+}
+.contain .social ul li img{
+    width: 30px;
+    height: 30px;
+}
+.contain .social ul li img:hover{
+    filter: brightness(83%);
+}
+
+.footer {
+    width: 100%;
+    background-color: #eee;
+}
+.footer .row-cont{
+    width: 85%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.footer .row-cont .col-cont{
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+.footer .row-cont .col-cont h6{
+    color: #616161;
+}
+.footer .row-cont .col-cont a{
+    color: #616161;
+    font-size: 11px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem ;
+    margin-bottom: 1rem;
+}
+.footer .row-cont .col-cont a:hover span{
+    text-decoration: underline;
+}
+.footer .under{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+    font-size: 11px;
+    color: #616161;
+    
+}
+.footer .under .left{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.footer .under .left a{
+    color: #616161;
+    display: flex;
+}
+.footer .under .left a i{
+    font-size: 19px;
+    color: #616161;
+    margin-right: 10px;
+}
+.footer .under .right{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .under .right a{
+    color: #616161;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.footer .under a:hover span{
+    text-decoration: underline;
+}
+
+
+
+@media (max-width : 1026px){
+    .contain .right-links .link a span{
+        display: none;
+    }
+    .contain{
+        width: 100%;
+    }
+    .footer .under .right{
+        flex-wrap: wrap;
+    }
+    .rows{
+        width: 90%;
+        margin: auto;
+    }
+    .social{
+        width: 90%;
+        margin: auto;
+    }
+    .for{
+        width: 90%;
+        margin: auto;
+    }
+}
+
+
+
+@media (max-width: 870px){
+    .contain .rows{
+        flex-wrap: wrap;
+    }
+    .contain .rows .cols {
+        width : 48% ;
+        
+    }
+    .footer .row-cont{
+        flex-wrap: wrap;
+
+    }
+    .footer .row-cont .col-cont{
+        width:33%;
+    }
+    .footer .under {
+        flex-direction: column;
+    }
+    .header{
+        display: none;
+    }
+    .header-res{
+        display: flex;
+    }
+}
+
+
+@media (max-width: 766px){
+    .contain .slide-view{
+        background: rgb(49, 49, 49);
+        display: flex;
+        flex-direction: column;
+        height: 47rem;
+    }
+    .contain .slide-view img{
+        display: block;
+        width: 100%;
+    }
+    .contain .slide-view .slide-container{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contain .section-2{
+        background: rgb(49, 49, 49);
+        display: flex;
+        flex-direction: column;
+        height: 43rem;
+    }
+    .contain .section-2 img{
+        display: block;
+        width: 100%;
+        height: 22rem;
+    }
+    .contain .section-2 .section2-container{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contain .section-2 .section2-container h3{
+        font-size: 1.5rem;
+    }
+    .contain .section-2 .section2-container p{
+        margin-top: 0;
+    }
+
+    .contain .section-3{
+        background: rgb(49, 49, 49);
+        display: flex;
+        flex-direction: column;
+        height: 43rem;
+    }
+    .contain .section-3 img{
+        display: block;
+        width: 100%;
+        height: 22rem;
+    }
+    .contain .section-3 .section-cont{
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+@media (max-width: 536px){
+    .contain .rows .cols {
+        width : 98% ;
+        margin:1rem auto 1rem auto;
+    }
+    .contain .covid .cont{
+        width: 80%;
+    }
+    .footer .row-cont .col-cont{
+        width:100%;
+    }
+    .contain .icons ul{
+        width: 93%;
+        margin-left:  auto;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 40px;
+    }
+    .contain .icons ul li{
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .contain .icons ul li a{
+        display: flex;
+        align-items: center;
+    }
+    .contain .icons ul li div{
+        max-width: 100%;
+    }
+    .contain .icons ul li img{
+        height: 20px;
+        width: 20px;
+        margin-right: 7px;
+    }
+}
